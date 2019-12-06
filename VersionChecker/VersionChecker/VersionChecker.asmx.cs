@@ -3,7 +3,8 @@
 namespace VersionChecker
 {
 	/// <summary>
-	/// Summary description for VersionChecker
+	/// Web service that compares two given software versions and returns whether the first one comes "before",
+	/// "after", or "equal" to the second.
 	/// </summary>
 	[WebService(Namespace = "http://tempuri.org/")]
 	[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
